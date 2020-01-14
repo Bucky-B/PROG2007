@@ -3,5 +3,5 @@ project(Programs C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Programs
-        Hello.c)
+add_executable(hello hello/Hello.c)
+add_executable(celsius celsius/main.c)
